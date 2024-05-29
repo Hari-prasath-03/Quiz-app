@@ -1,0 +1,483 @@
+[
+  {
+    "id": 1,
+    "question": "What is the result of concatenating the strings 'hello' and 'world'?",
+    "options": ["helloworld", "hello world", "hello_world", "None of the above"],
+    "answer": "helloworld"
+  },
+  {
+    "id": 2,
+    "question": "Which function is used to find the length of a string in Python?",
+    "options": ["len()", "length()", "size()", "count()"],
+    "answer": "len()"
+  },
+  {
+    "id": 3,
+    "question": "What does the method str.upper() do in Python?",
+    "options": ["Converts the string to lowercase", "Converts the string to uppercase", "Capitalizes the first letter of each word in the string", "Reverses the string"],
+    "answer": "Converts the string to uppercase"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is a valid way to access the first character of a string in Python?",
+    "options": ["string(0)", "string[0]", "string.first()", "None of the above"],
+    "answer": "string[0]"
+  },
+  {
+    "id": 5,
+    "question": "What does the method str.strip() do in Python?",
+    "options": ["Removes all whitespace characters from the beginning and end of the string", "Removes all characters from the beginning and end of the string", "Removes specified characters from the beginning and end of the string", "None of the above"],
+    "answer": "Removes all whitespace characters from the beginning and end of the string"
+  },
+  {
+    "id": 6,
+    "question": "Which method is used to split a string into a list of substrings based on a specified separator?",
+    "options": ["split()", "join()", "find()", "replace()"],
+    "answer": "split()"
+  },
+  {
+    "id": 7,
+    "question": "What is the result of the expression 'abc' * 3?",
+    "options": ["abcabcabc", "abc abc abc", "aabbcc", "None of the above"],
+    "answer": "abcabcabc"
+  },
+  {
+    "id": 8,
+    "question": "Which method is used to replace occurrences of a specified substring with another substring in a string?",
+    "options": ["replace()", "remove()", "find_and_replace()", "swap()"],
+    "answer": "replace()"
+  },
+  {
+    "id": 9,
+    "question": "Which method is used to check if a string starts with a specified prefix?",
+    "options": ["startswith()", "endswith()", "contains()", "match()"],
+    "answer": "startswith()"
+  },
+  {
+    "id": 10,
+    "question": "What does the method str.isdigit() return in Python?",
+    "options": ["True if all characters in the string are digits, otherwise False", "True if the string is composed entirely of digits, otherwise False", "True if the string contains at least one digit, otherwise False", "None of the above"],
+    "answer": "True if all characters in the string are digits, otherwise False"
+  },
+  {
+    "id": 11,
+    "question": "What is the result of 2 + 3 * 4?",
+    "options": ["14", "20", "18", "24"],
+    "answer": "14"
+  },
+  {
+    "id": 12,
+    "question": "What is the output of the following code snippet?\n\na = [1, 2, 3]\nb = a\nb.append(4)\nprint(a)",
+    "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "[1, 2, 3, 4, 4]", "[1, 2, 3, 4, 4, 4]"],
+    "answer": "[1, 2, 3, 4]"
+  },
+  {
+    "id": 13,
+    "question": "What is the correct way to comment multiple lines in Python?",
+    "options": ["/* comment */", "<!-- comment -->", "''' comment '''", "# comment"],
+    "answer": "''' comment '''"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following statements is true about Python?",
+    "options": ["Python is a high-level programming language.", "Python is compiled language.", "Python programs must be written within braces.", "Python is only suitable for web development."],
+    "answer": "Python is a high-level programming language."
+  },
+  {
+    "id": 15,
+    "question": "What is the output of the following code snippet?\n\nx = 5\ny = 2\nprint(x ** y)",
+    "options": ["25", "7", "10", "2.5"],
+    "answer": "25"
+  },
+  {
+    "id": 16,
+    "question": "How do you define a function in Python?",
+    "options": ["def function_name()", "define function_name()", "function function_name()", "def function_name():"],
+    "answer": "def function_name():"
+  },
+  {
+    "id": 17,
+    "question": "What will the following code output?\n\nmy_string = \"Hello, World!\"\nprint(my_string[3:7])",
+    "options": ["\"Hell\"", "\"lo, \"", "\"lo, W\"", "\"llo,\""],
+    "answer": "\"lo, \""
+  },
+  {
+    "id": 18,
+    "question": "Which of the following is not a valid data type in Python?",
+    "options": ["list", "array", "tuple", "dictionary"],
+    "answer": "array"
+  },
+  {
+    "id": 19,
+    "question": "How do you check the type of a variable in Python?",
+    "options": ["check_type(variable)", "typeof(variable)", "type(variable)", "variable.type()"],
+    "answer": "type(variable)"
+  },
+  {
+    "id": 20,
+    "question": "What does the range() function in Python return?",
+    "options": ["A list of numbers from 0 to the specified number.", "A generator object that yields numbers from 0 to the specified number.", "A tuple of numbers from 0 to the specified number.", "None of the above."],
+    "answer": "A generator object that yields numbers from 0 to the specified number."
+  },
+  {
+    "id": 21,
+    "question": "What is the output of print(3 * '7')?",
+    "options": ["21", "777", "7", "Error"],
+    "answer": "777"
+  },
+  {
+    "id": 22,
+    "question": "Which of the following statements is true about Python?",
+    "options": ["It is a compiled language", "It is dynamically typed", "It uses braces ({}) to denote blocks of code", "It does not support object-oriented programming"],
+    "answer": "It is dynamically typed"
+  },
+  {
+    "id": 23,
+    "question": "What does the range() function in Python return?",
+    "options": ["A list of integers", "A tuple of integers", "A generator object", "A dictionary of integers"],
+    "answer": "A generator object"
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is not a valid Python variable name?",
+    "options": ["my_variable", "_variable", "1_variable", "variable1"],
+    "answer": "1_variable"
+  },
+  {
+    "id": 25,
+    "question": "What is the result of 10 > 9 or 10 < 9?",
+    "options": ["True", "False", "Error", "None of the above"],
+    "answer": "True"
+  },
+  {
+    "id": 26,
+    "question": "What is the output of print('Python'[1:4])?",
+    "options": ["Pyt", "yth", "thon", "ytho"],
+    "answer": "yth"
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is used to define a function in Python?",
+    "options": ["func", "def", "define", "function"],
+    "answer": "def"
+  },
+  {
+    "id": 28,
+    "question": "What will be the output of the following code?\n\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)",
+    "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "[1, 2, 4]", "Error"],
+    "answer": "[1, 2, 3, 4]"
+  },
+  {
+    "id": 29,
+    "question": "What is the output of len('Python')?",
+    "options": ["5", "6", "7", "Error"],
+    "answer": "6"
+  },
+  {
+    "id": 30,
+    "question": "What does the strip() function do in Python?",
+    "options": ["Removes all leading and trailing spaces from a string", "Removes all occurrences of a specified character from a string", "Returns a new string with characters removed from the beginning and end", "None of the above"],
+    "answer": "Removes all leading and trailing spaces from a string"
+  },
+  {
+    "id": 31,
+    "question": "What is the purpose of a function in Python?",
+    "options": ["To store data", "To perform a specific task", "To declare variables", "To print output"],
+    "answer": "To perform a specific task"
+  },
+  {
+    "id": 32,
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["define", "func", "def", "function"],
+    "answer": "def"
+  },
+  {
+    "id": 33,
+    "question": "What is the syntax for defining a function in Python?",
+    "options": ["def my_function():", "function my_function():", "define my_function():", "func my_function():"],
+    "answer": "def my_function():"
+  },
+  {
+    "id": 34,
+    "question": "What does the return statement do in a function?",
+    "options": ["It terminates the function", "It returns a value from the function", "It prints a value", "It defines a variable"],
+    "answer": "It returns a value from the function"
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is true about function arguments in Python?",
+    "options": ["Python functions cannot accept arguments", "Python functions can accept only one argument", "Python functions can accept multiple arguments", "Python functions can accept only keyword arguments"],
+    "answer": "Python functions can accept multiple arguments"
+  },
+  {
+    "id": 36,
+    "question": "What is the difference between parameters and arguments in Python?",
+    "options": ["Parameters are used when calling a function, while arguments are used when defining a function", "Parameters are specified in the function definition, while arguments are the values passed to the function", "Parameters and arguments are interchangeable terms in Python", "Parameters and arguments are not used in Python functions"],
+    "answer": "Parameters are specified in the function definition, while arguments are the values passed to the function"
+  },
+  {
+    "id": 37,
+    "question": "What is the output of the following function call: print(sum([1, 2, 3, 4, 5]))?",
+    "options": ["15", "10", "[1, 2, 3, 4, 5]", "Error"],
+    "answer": "15"
+  },
+  {
+    "id": 38,
+    "question": "Which keyword is used to make a parameter optional in a Python function?",
+    "options": ["optional", "opt", "default", "None"],
+    "answer": "None"
+  },
+  {
+    "id": 39,
+    "question": "What is a lambda function in Python?",
+    "options": ["A function that cannot accept arguments", "A function defined using the def keyword", "An anonymous function defined using the lambda keyword", "A function that always returns None"],
+    "answer": "An anonymous function defined using the lambda keyword"
+  },
+  {
+    "id": 40,
+    "question": "What does the *args syntax represent in a Python function definition?",
+    "options": ["It specifies keyword arguments", "It represents a variable number of positional arguments", "It represents a single argument", "It is not a valid syntax in Python"],
+    "answer": "It represents a variable number of positional arguments"
+  },
+  {
+    "id": 41,
+    "question": "How do you initialize an empty list in Python?",
+    "options": ["list()", "[]", "{}", "empty_list()"],
+    "answer": "[]"
+  },
+  {
+    "id": 42,
+    "question": "Which of the following methods is used to add an element to the end of a list?",
+    "options": ["append()", "insert()", "extend()", "add()"],
+    "answer": "append()"
+  },
+  {
+    "id": 43,
+    "question": "What does the len() function return when called on a list?",
+    "options": ["The length of the list", "The sum of the elements in the list", "The average of the elements in the list", "The maximum element in the list"],
+    "answer": "The length of the list"
+  },
+  {
+    "id": 44,
+    "question": "How do you access the third element of a list named my_list in Python?",
+    "options": ["my_list(3)", "my_list[3]", "my_list{3}", "my_list.3"],
+    "answer": "my_list[3]"
+  },
+  {
+    "id": 45,
+    "question": "Which of the following methods is used to remove the last element from a list?",
+    "options": ["pop()", "remove()", "delete()", "discard()"],
+    "answer": "pop()"
+  },
+  {
+    "id": 46,
+    "question": "What will be the output of the following code?\n\n```python\nmy_list = [1, 2, 3]\nmy_list.append([4, 5])\nprint(my_list)\n```\n",
+    "options": ["[1, 2, 3, [4, 5]]", "[1, 2, 3, 4, 5]", "[1, 2, 3, 4, [5]]", "[1, 2, 3, 5, 4]"],
+    "answer": "[1, 2, 3, [4, 5]]"
+  },
+  {
+    "id": 47,
+    "question": "Which method is used to sort a list in place in Python?",
+    "options": ["sort()", "sorted()", "arrange()", "order()"],
+    "answer": "sort()"
+  },
+  {
+    "id": 48,
+    "question": "How do you check if an element is present in a list?",
+    "options": ["Using the in keyword", "Using the exists() method", "Using the contains() method", "Using the has() keyword"],
+    "answer": "Using the in keyword"
+  },
+  {
+    "id": 49,
+    "question": "What does the index() method return if the specified element is not present in the list?",
+    "options": ["None", "-1", "Error", "0"],
+    "answer": "Error"
+  },
+  {
+    "id": 50,
+    "question": "Which of the following statements is true about lists in Python?",
+    "options": ["Lists are immutable", "Lists can only contain elements of the same data type", "Lists can be nested", "Lists cannot be sliced"],
+    "answer": "Lists can be nested"
+  },
+  {
+    "id": 51,
+    "question": "What is the correct syntax to create a dictionary in Python?",
+    "options": ["my_dict = {}", "my_dict = {1, 2, 3}", "my_dict = {1: 'a', 2: 'b'}", "my_dict = [1, 2, 3]"],
+    "answer": "my_dict = {1: 'a', 2: 'b'}"
+  },
+  {
+    "id": 52,
+    "question": "Which of the following methods is used to remove a key-value pair from a dictionary?",
+    "options": ["popitem()", "delete()", "remove()", "discard()"],
+    "answer": "popitem()"
+  },
+  {
+    "id": 53,
+    "question": "What will be the output of the following code?\n\n```python\nmy_dict = {'a': 1, 'b': 2, 'c': 3}\nprint(my_dict['b'])\n```\n",
+    "options": ["1", "2", "3", "KeyError"],
+    "answer": "2"
+  },
+  {
+    "id": 54,
+    "question": "How can you get all the keys from a dictionary?",
+    "options": ["my_dict.keys()", "my_dict.get_keys()", "my_dict.all_keys()", "my_dict.values()"],
+    "answer": "my_dict.keys()"
+  },
+  {
+    "id": 55,
+    "question": "Which of the following statements will raise a KeyError?",
+    "options": ["my_dict.get('key', 'default')", "my_dict['key']", "my_dict.pop('key', 'default')", "my_dict.setdefault('key', 'default')"],
+    "answer": "my_dict['key']"
+  },
+  {
+    "id": 56,
+    "question": "What does the get() method return if the specified key is not found in the dictionary and no default value is provided?",
+    "options": ["0", "None", "KeyError", "False"],
+    "answer": "None"
+  },
+  {
+    "id": 57,
+    "question": "Which of the following can be used as keys in a dictionary?",
+    "options": ["lists", "tuples", "sets", "dictionaries"],
+    "answer": "tuples"
+  },
+  {
+    "id": 58,
+    "question": "What is the output of the following code?\n\n```python\nmy_dict = {'a': 1, 'b': 2}\nmy_dict.update({'b': 3, 'c': 4})\nprint(my_dict)\n```\n",
+    "options": ["{'a': 1, 'b': 2, 'c': 4}", "{'a': 1, 'b': 3, 'c': 4}", "{'a': 1, 'b': 2, 'c': 3, 'd': 4}", "{'a': 1, 'c': 4}"],
+    "answer": "{'a': 1, 'b': 3, 'c': 4}"
+  },
+  {
+    "id": 59,
+    "question": "Which of the following is a correct syntax to create a tuple?",
+    "options": ["my_tuple = ()", "my_tuple = []", "my_tuple = {}", "my_tuple = set()"],
+    "answer": "my_tuple = ()"
+  },
+  {
+    "id": 60,
+    "question": "What is the output of the following code?\n\n```python\nmy_tuple = (1, 2, 3)\nprint(my_tuple[1])\n```\n",
+    "options": ["1", "2", "3", "IndexError"],
+    "answer": "2"
+  },
+  {
+    "id": 61,
+    "question": "Can the elements of a tuple be changed after the tuple is created?",
+    "options": ["Yes", "No"],
+    "answer": "No"
+  },
+  {
+    "id": 62,
+    "question": "What will be the result of the following code?\n\n```python\nmy_tuple = (1, 2, 3)\nmy_tuple[1] = 4\n```\n",
+    "options": ["(1, 4, 3)", "(1, 2, 3)", "TypeError", "None"],
+    "answer": "TypeError"
+  },
+  {
+    "id": 63,
+    "question": "How can you create a tuple with a single element?",
+    "options": ["my_tuple = (1)", "my_tuple = (1,)", "my_tuple = 1", "my_tuple = tuple(1)"],
+    "answer": "my_tuple = (1,)"
+  },
+  {
+    "id": 64,
+    "question": "What is the output of the following code?\n\n```python\nmy_tuple = (1, 2, 3)\nprint(len(my_tuple))\n```\n",
+    "options": ["1", "2", "3", "4"],
+    "answer": "3"
+  },
+  {
+    "id": 65,
+    "question": "Which of the following methods can be used to count the occurrences of an element in a tuple?",
+    "options": ["count()", "find()", "index()", "occurrences()"],
+    "answer": "count()"
+  },
+  {
+    "id": 66,
+    "question": "What will be the output of the following code?\n\n```python\nmy_tuple = (1, 2, 3, 2, 2)\nprint(my_tuple.count(2))\n```\n",
+    "options": ["1", "2", "3", "4"],
+    "answer": "3"
+  },
+  {
+    "id": 67,
+    "question": "How can you concatenate two tuples a and b?",
+    "options": ["a.add(b)", "a + b", "a.append(b)", "a.extend(b)"],
+    "answer": "a + b"
+  },
+  {
+    "id": 68,
+    "question": "Which of the following is the correct syntax to create a set in Python?",
+    "options": ["my_set = set()", "my_set = {}", "my_set = []", "my_set = dict()"],
+    "answer": "my_set = set()"
+  },
+  {
+    "id": 69,
+    "question": "What will be the output of the following code?\n\n```python\nmy_set = {1, 2, 3, 2, 1}\nprint(my_set)\n```\n",
+    "options": ["{1, 2, 3, 2, 1}", "{1, 2, 3}", "{3, 2, 1}", "{1, 2, 1}"],
+    "answer": "{1, 2, 3}"
+  },
+  {
+    "id": 70,
+    "question": "Can a set contain duplicate elements?",
+    "options": ["Yes", "No"],
+    "answer": "No"
+  },
+  {
+    "id": 71,
+    "question": "Which of the following methods can be used to add an element to a set?",
+    "options": ["add()", "append()", "extend()", "insert()"],
+    "answer": "add()"
+  },
+  {
+    "id": 72,
+    "question": "How do you remove an element from a set in Python?",
+    "options": ["Using the remove() method", "Using the delete() method", "Using the pop() method", "Using the discard() method"],
+    "answer": "Using the remove() method"
+  },
+  {
+    "id": 73,
+    "question": "What will be the output of the following code?\n\n```python\nmy_set = {1, 2, 3}\nmy_set.remove(2)\nprint(my_set)\n```\n",
+    "options": ["{1, 2}", "{2, 3}", "{1, 3}", "KeyError"],
+    "answer": "{1, 3}"
+  },
+  {
+    "id": 74,
+    "question": "How do you check if a set is a subset of another set?",
+    "options": ["Using the issubset() method", "Using the subset() method", "Using the < operator", "Using the <= operator"],
+    "answer": "Using the issubset() method"
+  },
+  {
+    "id": 75,
+    "question": "Which method is used to find the intersection of two sets?",
+    "options": ["intersection()", "union()", "difference()", "symmetric_difference()"],
+    "answer": "intersection()"
+  },
+  {
+    "id": 76,
+    "question": "What will be the output of the following code?\n\n```python\nset1 = {1, 2, 3}\nset2 = {3, 4, 5}\nprint(set1 & set2)\n```\n",
+    "options": ["{1, 2, 3, 4, 5}", "{3}", "{4}", "{1, 2}"],
+    "answer": "{3}"
+  },
+  {
+    "id": 77,
+    "question": "Can a set contain another set as an element?",
+    "options": ["Yes", "No"],
+    "answer": "No"
+  },
+  {
+    "id": 78,
+    "question": "Which of the following is not a valid set operation?",
+    "options": ["intersection", "union", "difference", "addition"],
+    "answer": "addition"
+  },
+  {
+    "id": 79,
+    "question": "What will be the result of the following code?\n\n```python\nset1 = {1, 2}\nset2 = {2, 3}\nset3 = set1.union(set2)\nprint(set3)\n```\n",
+    "options": ["{1, 2}", "{2, 3}", "{1, 2, 3}", "{1, 3}"],
+    "answer": "{1, 2, 3}"
+  },
+  {
+    "id": 80,
+    "question": "Which of the following methods can be used to clear all elements from a set?",
+    "options": ["clear()", "delete()", "remove_all()", "discard_all()"],
+    "answer": "clear()"
+  }
+]
+

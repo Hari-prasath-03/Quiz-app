@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.app-container {
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0 20px;
+}
+
+.question-section {
+    min-width: 400px;
+}
+
+.starting {
+    text-align: center;
+}
+
+.starting h2{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.question-section h2 {
+    margin: 10px 0;
+    font-weight: 600;
+    color: rgb(185, 0, 185);
+}
+
+p {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.score-section h2 {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.score-section button {
+    background-color: rgb(224, 48, 16);
+    margin-right: 10px;
+}
+
+.score-section button:hover {
+    background-color: rgb(224, 48, 16);
+    filter: brightness(1.5);
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(185, 0, 185);
+    color: #f1f1f1;
+    cursor: pointer;
+    background-size: cover;
+    opacity: .9;
+}
+
+.timer-section {
+    font-size: 18px;
+    color: #555;
+}
+
+.timer-section span {
+    font-weight: 800;
+}
+
+.view-ans {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.view-ans h2 {
+    padding-top: 30px;
+    opacity: .8;
+    letter-spacing: 1px;
+}
+
+.view-ans ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.view-ans ol li {
+    padding: 10px;
+    border: 1.5px solid #cecece;
+    border-radius: 8px;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-group button:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.correct-ans {
+    color: rgb(50, 230, 50);
+}
+
+.wrong-ans {
+    color: rgba(255, 0, 0, 0.65);
+}
