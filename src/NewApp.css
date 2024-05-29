@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: "Noto Sans", sans-serif;
 }
 
 .app-container {
@@ -16,6 +18,7 @@
 
 .question-section {
     min-width: 400px;
+    margin-left: 25px;
 }
 
 .starting {

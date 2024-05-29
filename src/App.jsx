@@ -37,7 +37,7 @@ function App() {
     setCurrentQuestion(0);
     setScore(0);
     setDisplayScore(false);
-    setTimer(20);
+    setTimer(59);
     setisStart(false);
     setIsViewAnsOpen(false);
     setChosenAnswers([]);
